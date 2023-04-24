@@ -13,19 +13,19 @@ footerFormat: ""
 newlines:
   beforeChangelogVersion: 2
 kinds:
-- label: Added
+- label: ✨ Added
   auto: minor
-- label: Changed
+- label: ♽ Changed
   auto: major
-- label: Deprecated
+- label: ⚠️ Deprecated
   auto: patch
-- label: Removed
+- label: ⛔️ Removed
   auto: major
-- label: Fixed
+- label: 🐛 Fixed
   auto: patch
-- label: Security
+- label: 🔒 Security
   auto: patch
-- label: Refactored
+- label: 🛠️ Refactored
   auto: patch
 replacements:
 - path: pyproject.toml
